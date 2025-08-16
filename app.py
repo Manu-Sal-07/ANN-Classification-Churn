@@ -1,5 +1,5 @@
 import streamlit as st
-import tensorflow-cpu as tf
+import tensorflow as tf
 from sklearn.preprocessing import StandardScaler , LabelEncoder, OneHotEncoder
 import pickle
 import pandas as pd
@@ -70,3 +70,4 @@ else:
     print('The customer is not likely to churn.')
 
     
+
