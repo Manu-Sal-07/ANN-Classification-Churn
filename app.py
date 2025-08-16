@@ -1,5 +1,5 @@
 import streamlit as st
-import tensorflow as tf
+import tensorflow-cpu as tf
 from sklearn.preprocessing import StandardScaler , LabelEncoder, OneHotEncoder
 import pickle
 import pandas as pd
@@ -68,4 +68,5 @@ if prediction_proba > 0.5:
     print('The customer is likely to churn.')
 else:
     print('The customer is not likely to churn.')
+
     
